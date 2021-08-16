@@ -1,2 +1,2 @@
 # dataPlus
-githup初体验
+个人学习记录
