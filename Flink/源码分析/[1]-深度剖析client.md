@@ -79,6 +79,8 @@ org.apache.flink.client.cli.CliFrontend #客户端程序入口
   																			org.apache.flink.streaming.api.graph.StreamingJobGraphGenerator
   																					createJobGraph()  ##将streamGraph 转换为jobGraph
                     clusterClient.submitJob(jobGraph)
+        org.apache.flink.client.program.rest.RestClusterClient
+        submitJob(jobGraph)
 ```
 
 ###### main
@@ -110,6 +112,8 @@ org.apache.flink.client.cli.CliFrontend #客户端程序入口
 ###### JobGraph提交
 
 ![image-20240626135545613](./images/submitJob.png)
+###### submitJob异步提交jobGraph
+![image-20240628164055931](./images/submitJobReal.png)
 
 #### 中间结果图
 
